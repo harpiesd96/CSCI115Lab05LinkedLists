@@ -29,6 +29,9 @@ int main()
 	DLL.InsertAfter(31, 0);
 	DLL.Display();
 
+	DLL.InsertAfter(32, 2);
+	DLL.Display();
+
 	DLL.RemoveAt(5);
 	DLL.Display();
 

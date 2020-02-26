@@ -108,6 +108,10 @@ void DoubleLinkedList::InsertAfter(int data, size_t index)
 
 		InsertBetweenEndsBefore(1, new_node);
 	}
+	else
+	{
+		InsertBetweenEndsBefore(index+1, new_node);
+	}
 
 	size++;
 	AuditIndeces();
